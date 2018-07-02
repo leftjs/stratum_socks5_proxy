@@ -1,0 +1,11 @@
+{
+  "pool": {
+    "host": "us.ravenminer.com",
+    "port": 5678
+  },
+  "port": 8000,
+  "proxy": {
+    "host": "localhost",
+    "port": "1080"
+  }
+}

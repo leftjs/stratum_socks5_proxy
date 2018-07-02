@@ -1,0 +1,20 @@
+{
+  "name": "StratumProxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "backpack-core": "^0.7.0"
+  },
+  "dependencies": {
+    "ndjson": "^1.5.0",
+    "proxysocket": "^1.2.0",
+    "source-map-support": "^0.5.6",
+    "stratum": "^0.2.4"
+  },
+  "scripts": {
+    "dev": "backpack",
+    "start": "node build/main.js",
+    "build": "backpack build"
+  }
+}
